@@ -1,6 +1,6 @@
 # 📄 Chat with a PDF using RAG Pipeline 🚀
 
-Welcome to **Chat with a PDF** — a project that leverages a **Retrieval-Augmented Generation (RAG)** pipeline for intelligent and interactive conversations with PDF documents. This project uses **semantic chunking** and **Cohere's AI models** for both semantic search and text generation, providing accurate and contextual responses. The user interface is powered by **Streamlit**, making it easy and intuitive to interact with the app.
+Welcome to **Chat with your PDF** — a project that leverages a **Retrieval-Augmented Generation (RAG)** pipeline for intelligent and interactive conversations with PDF documents. This project uses **semantic chunking** and **Cohere's AI models** for both semantic search and text generation, providing contextual responses. The user interface is powered by **Streamlit**, making it easy and intuitive to interact with the app.
 
 ---
 
@@ -29,14 +29,10 @@ Welcome to **Chat with a PDF** — a project that leverages a **Retrieval-Augmen
    git clone https://github.com/yourusername/your-repo-name.git
    ```
    
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Run the Streamlit app:
+2. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 ---
@@ -45,18 +41,13 @@ Welcome to **Chat with a PDF** — a project that leverages a **Retrieval-Augmen
 
 - Chat with the PDF using a simple, intuitive **chat interface**.
 - Keep track of the conversation with **persistent session state**.
+- More intelligent **generation models** will be added in the future.
 
 ---
 
 ## 🤝 Contributing
 
 Feel free to open issues or submit pull requests. Contributions are welcome!
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
