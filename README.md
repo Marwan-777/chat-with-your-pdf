@@ -1,1 +1,63 @@
-# chat-with-your-pdf
+# 📄 Chat with a PDF using RAG Pipeline 🚀
+
+Welcome to **Chat with a PDF** — a project that leverages a **Retrieval-Augmented Generation (RAG)** pipeline for intelligent and interactive conversations with PDF documents. This project uses **semantic chunking** and **Cohere's AI models** for both semantic search and text generation, providing accurate and contextual responses. The user interface is powered by **Streamlit**, making it easy and intuitive to interact with the app.
+
+---
+
+## 📚 Features
+
+- **Semantic Chunking**: Splits PDF content into semantically meaningful chunks for better answer quality.
+- **Cohere for Embeddings**: Utilizes **Cohere's embedding model** for powerful semantic search capabilities.
+- **Cohere for Text Generation**: Uses **Cohere's generation model** for generating responses during interactions.
+- **Streamlit GUI**: Built with **Streamlit**, allowing seamless interaction with the PDF through a chat interface using `chat_messages` and `session_state` for session persistence.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**: Backend logic and data processing.
+- **Cohere**: AI models for embeddings and text generation.
+- **Streamlit**: Frontend for an interactive user interface.
+- **LangChain**: For semantic chunking and retrieval processing.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 🖼️ User Interface
+
+- Chat with the PDF using a simple, intuitive **chat interface**.
+- Keep track of the conversation with **persistent session state**.
+
+---
+
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests. Contributions are welcome!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Enjoy interacting with your PDFs! 😊
